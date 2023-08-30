@@ -8,4 +8,5 @@ Code is licensed under MIT License.
 # Commands
 
 `betterwhitelist enable` - enables the BetterWhitelist whitelisting filter, enabled by default, controlled using vanilla `/whitelist` command.
+
 `betterwhitelist disabled` - disables the BetterWhitelist whitelisting filter, brings back vanilla whitelist behaviour.
