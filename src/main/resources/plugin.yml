@@ -1,0 +1,13 @@
+name: BetterWhitelist
+version: '${version}'
+main: dev.denismasterherobrine.betterwhitelist.BetterWhitelist
+api-version: '1.17'
+load: STARTUP
+authors: [DenisMasterHerobrine]
+description: This plugin allows players with zero-ed UUIDs to join and ignore the whitelist packets
+
+commands:
+    betterwhitelist:
+        description: Enable or disable whitelist listener
+        usage: /betterwhitelist enable/disable
+        permission: betterwhitelist.state
